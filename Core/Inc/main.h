@@ -67,8 +67,15 @@ void Error_Handler(void);
 #define ADC_VIN_GPIO_Port GPIOA
 #define ADC_5V_Pin GPIO_PIN_1
 #define ADC_5V_GPIO_Port GPIOA
+#define ADC_CURRENT_Pin GPIO_PIN_6
+#define ADC_CURRENT_GPIO_Port GPIOA
 #define ADC_VERSION_Pin GPIO_PIN_7
 #define ADC_VERSION_GPIO_Port GPIOA
+#define CAN2_TERMINATOR_Pin GPIO_PIN_15
+#define CAN2_TERMINATOR_GPIO_Port GPIOB
+#define CAN1_TERMINATOR_Pin GPIO_PIN_15
+#define CAN1_TERMINATOR_GPIO_Port GPIOA
+
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */

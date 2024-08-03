@@ -21,6 +21,7 @@
 #include "adc.h"
 #include "dma.h"
 #include "fdcan.h"
+#include "i2c.h"
 #include "gpio.h"
 
 /* Private includes ----------------------------------------------------------*/
@@ -90,6 +91,7 @@ int main(void)
   MX_DMA_Init();
   MX_FDCAN1_Init();
   MX_ADC1_Init();
+  MX_I2C1_Init();
   /* USER CODE BEGIN 2 */
   application_entry_point();
   /* USER CODE END 2 */
